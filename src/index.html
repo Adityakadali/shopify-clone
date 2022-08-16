@@ -96,7 +96,12 @@
             Try for free
           </button>
         </div>
-        <i class="bx bx-menu ml-auto text-2xl text-neutral-600 lg:hidden"></i>
+        <button
+          class="ml-auto font-semibold tracking-wide text-neutral-800 lg:hidden"
+        >
+          Log in
+        </button>
+        <i class="bx bx-menu text-3xl text-neutral-600 lg:hidden"></i>
       </nav>
     </header>
 
@@ -161,7 +166,7 @@
         </p>
         <a
           href="#"
-          class="mb-10 block font-bold transition-transform ease-in-out after:ml-1 after:inline-block after:transition after:ease-out after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:ease-in-out"
+          class="mb-10 block text-center font-bold transition-transform ease-in-out after:ml-1 after:inline-block after:transition after:ease-out after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:ease-in-out md:text-start"
           >Explore more examples
         </a>
         <!-- business examples -->
@@ -429,7 +434,7 @@
     <!-- world-section -->
     <section>
       <div class="container mx-auto py-16">
-        <h1 class="mb-8 max-w-lg text-4xl text-neutral-800">
+        <h1 class="mx-auto mb-8 max-w-lg text-4xl text-neutral-800 md:mx-0">
           Empowering independent business owners everywhere
         </h1>
         <p class="mb-8 max-w-2xl text-2xl text-neutral-800">
@@ -440,7 +445,7 @@
         </p>
         <a
           href="#"
-          class="mb-20 block font-bold text-darkgreen-100 transition-transform ease-in-out after:inline-block after:transition after:ease-out after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:ease-in-out"
+          class="mb-20 block text-center font-bold text-darkgreen-100 transition-transform ease-in-out after:inline-block after:transition after:ease-out after:content-['➔'] hover:after:translate-x-2 hover:after:transition-transform hover:after:ease-in-out md:text-start"
           >Learn more about Shopify
         </a>
         <div class="p-1">
@@ -458,7 +463,11 @@
       <div
         class="container mx-auto flex flex-col bg-darkgreen-300 text-white md:flex-row"
       >
-        <img class="md:w-1/2" src="./images/alicia-souza.jpg" alt="" />
+        <img
+          class="object-cover md:w-1/2"
+          src="./images/alicia-souza.jpg"
+          alt=""
+        />
         <div class="flex flex-col justify-center p-16 md:w-1/2">
           <p
             class="mb-8 text-center text-2xl font-bold text-babypink-100 lg:text-4xl"
@@ -497,7 +506,9 @@
       <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row">
           <div class="py-16 lg:w-1/2">
-            <h1 class="mb-10 max-w-xl text-4xl font-bold text-neutral-900">
+            <h1
+              class="mb-10 max-w-xl text-center text-4xl font-bold text-neutral-900 md:text-start"
+            >
               Get the help you need, every step of the way
             </h1>
             <div class="flex flex-wrap justify-around gap-8 lg:justify-between">
@@ -574,11 +585,56 @@
           <a href="#top" class="after:m-2 after:content-['⬆︎']">Back to top</a>
         </button>
       </div>
-      <!-- footer section -->
-    <footer>
+    </section>
+    <!-- footer section -->
+    <footer class="bg-darkgreen-300 text-white">
+      <div class="container mx-auto py-10">
+        <ul class="mb-4 flex flex-wrap justify-center gap-6 md:justify-start">
+          <li class="font-bold">About</li>
+          <li class="font-bold">Careers</li>
+          <li class="font-bold">Press & Media</li>
+          <li class="font-bold">Shopify +</li>
+          <li class="font-bold">Sitemap</li>
+        </ul>
+        <div class="mb-8 h-px w-full bg-neutral-400 opacity-25"></div>
+        <div class="mb-8 flex flex-wrap gap-8">
+          <ul class="space-y-2">
+            <li class="font-bold">Point of sale</li>
+            <li>Sell online</li>
+            <li>Features</li>
+            <li>Examples</li>
+          </ul>
+          <ul class="space-y-2">
+            <li class="font-bold">Online store</li>
+            <li>Sell online</li>
+            <li>Features</li>
+            <li>Examples</li>
+          </ul>
 
+          <ul class="ml-auto space-y-2">
+            <li class="font-bold">Support</li>
+            <li>Sell online</li>
+            <li>Features</li>
+            <li>Examples</li>
+          </ul>
+        </div>
+        <div class="mb-8 h-px w-full bg-neutral-400 opacity-25"></div>
+        <div class="flex flex-wrap">
+          <div class="mx-auto flex gap-4 md:mx-0">
+            <i class="bx bxl-facebook-circle text-3xl"></i>
+            <i class="bx bxl-twitter text-3xl"></i>
+            <i class="bx bxl-instagram-alt text-3xl"></i>
+            <i class="bx bxl-youtube text-3xl"></i>
+          </div>
+          <div class="mx-auto flex items-center gap-4 lg:ml-auto">
+            <p class="text-neutral-300">Terms of service</p>
+            <p class="text-neutral-300">Privacy Policy</p>
+            <select class="bg-darkgreen-300 font-semibold" name="" id="">
+              <option value="">India</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </footer>
-
-
   </body>
 </html>
