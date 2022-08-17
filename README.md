@@ -5,8 +5,11 @@
 ## Screenshots:
 
 - Desktop View
+
   ![Desktop view](./public/screenshots/desktop.png)
+
 - Mobile view
+
   ![Mobile view](./public/screenshots/mobile.png)
 
 ## Built with:
